@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"bz-client/api"
-	"bz-client/internal/cfg"
+	"bz-lib/cfg"
 
 	_ "github.com/lib/pq"
 
@@ -83,6 +83,7 @@ func listClients_v1(db *sql.DB, req *api.ListClientsReq_v1, resp *api.ListClient
 	if err3 := rows.Err(); err3 != nil {
 		resp.Status = api.Status{
 			Code: 3,
+			Note: fmt.Sprint(err1),
 		}
 		return
 	}

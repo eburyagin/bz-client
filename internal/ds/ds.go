@@ -1,7 +1,7 @@
 package ds
 
 import (
-	"bz-client/internal/cfg"
+	"bz-lib/cfg"
 
 	"github.com/go-pg/pg"
 )

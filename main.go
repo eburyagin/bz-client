@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bz-client/internal/cfg"
 	"bz-client/internal/serv"
+	"bz-lib/cfg"
 	"flag"
 	"log"
 	"runtime"

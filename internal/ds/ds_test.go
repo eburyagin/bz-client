@@ -3,7 +3,7 @@ package ds
 import (
 	"testing"
 
-	cfg "bz-client/internal/cfg"
+	cfg "bz-lib/cfg"
 )
 
 func TestConnection(t *testing.T) {

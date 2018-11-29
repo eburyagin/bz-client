@@ -3,7 +3,7 @@ package serv
 import (
 	"log"
 
-	"bz-client/internal/cfg"
+	"bz-lib/cfg"
 )
 
 func Start_Services(config *cfg.Config) error {

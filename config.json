@@ -10,6 +10,7 @@
   "bus": {
     "type": "nats",
     "name": "Go NATS Server 1.0.4",
-    "urls": "nats://192.168.56.101:4222"
+    "urls": "nats://192.168.56.101:4222",
+    "timeout": "100ms"
   }
 }
